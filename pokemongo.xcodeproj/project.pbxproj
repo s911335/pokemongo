@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB1F5D5B1FC7C0B6000609EC /* 大安森林公園(走路).gpx in Resources */ = {isa = PBXBuildFile; fileRef = BB1F5D5A1FC7C0B6000609EC /* 大安森林公園(走路).gpx */; };
+		BB2FCC821FBEAB8000C174B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2FCC811FBEAB8000C174B6 /* AppDelegate.swift */; };
+		BB2FCC841FBEAB8000C174B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2FCC831FBEAB8000C174B6 /* ViewController.swift */; };
+		BB2FCC871FBEAB8000C174B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB2FCC851FBEAB8000C174B6 /* Main.storyboard */; };
+		BB2FCC891FBEAB8000C174B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB2FCC881FBEAB8000C174B6 /* Assets.xcassets */; };
+		BB2FCC8C1FBEAB8000C174B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB2FCC8A1FBEAB8000C174B6 /* LaunchScreen.storyboard */; };
+		BB8B8CC01FC1774800E4C394 /* 家裡走到公館(走路).gpx in Resources */ = {isa = PBXBuildFile; fileRef = BB8B8CBF1FC1774800E4C394 /* 家裡走到公館(走路).gpx */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BB1F5D5A1FC7C0B6000609EC /* 大安森林公園(走路).gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "大安森林公園(走路).gpx"; sourceTree = "<group>"; };
+		BB24500420BD9F05005D4C99 /* 不知道道館1.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "不知道道館1.gpx"; sourceTree = "<group>"; };
+		BB24500520BDA0E5005D4C99 /* 不知道道館2.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "不知道道館2.gpx"; sourceTree = "<group>"; };
+		BB24500620BDA16C005D4C99 /* 不知道道館3.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "不知道道館3.gpx"; sourceTree = "<group>"; };
+		BB24500720BDA1F6005D4C99 /* 不知道道館4.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "不知道道館4.gpx"; sourceTree = "<group>"; };
+		BB24500820C24E67005D4C99 /* 萬有2號公園.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "萬有2號公園.gpx"; sourceTree = "<group>"; };
+		BB2CDCAC20B99593004FD0E8 /* 北投公園.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "北投公園.gpx"; sourceTree = "<group>"; };
+		BB2CDCAD20B99603004FD0E8 /* 五股聖母宮.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "五股聖母宮.gpx"; sourceTree = "<group>"; };
+		BB2CDCAE20B9983F004FD0E8 /* 新莊大眾廟.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "新莊大眾廟.gpx"; sourceTree = "<group>"; };
+		BB2FCC7E1FBEAB8000C174B6 /* pokemongo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pokemongo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB2FCC811FBEAB8000C174B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BB2FCC831FBEAB8000C174B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BB2FCC861FBEAB8000C174B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB2FCC881FBEAB8000C174B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB2FCC8B1FBEAB8000C174B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB2FCC8D1FBEAB8000C174B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB3436D920819720004AE53B /* simulateLocation.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = simulateLocation.gpx; sourceTree = "<group>"; };
+		BB3436DA208199F1004AE53B /* 丹麥1.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "丹麥1.gpx"; sourceTree = "<group>"; };
+		BB3436DB2082E388004AE53B /* 青蛙池.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "青蛙池.gpx"; sourceTree = "<group>"; };
+		BB3436DC2082E403004AE53B /* 光輝公園.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "光輝公園.gpx"; sourceTree = "<group>"; };
+		BB3436DD2082E4DA004AE53B /* 秀明變電箱.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "秀明變電箱.gpx"; sourceTree = "<group>"; };
+		BB3436DE2082E556004AE53B /* 景行公園.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "景行公園.gpx"; sourceTree = "<group>"; };
+		BB3436DF2082E596004AE53B /* 萬有公園.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "萬有公園.gpx"; sourceTree = "<group>"; };
+		BB3436E02082E5DF004AE53B /* 木南公園.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "木南公園.gpx"; sourceTree = "<group>"; };
+		BB3436E12082E61C004AE53B /* 原野公園.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "原野公園.gpx"; sourceTree = "<group>"; };
+		BB52E50820E4FCCA0097588A /* 一壽街.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "一壽街.gpx"; sourceTree = "<group>"; };
+		BB57E67420B9916400776C4B /* 貓空1.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "貓空1.gpx"; sourceTree = "<group>"; };
+		BB57E67520B992C900776C4B /* 貓空2.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "貓空2.gpx"; sourceTree = "<group>"; };
+		BB57E67620B9936700776C4B /* 貓空3.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "貓空3.gpx"; sourceTree = "<group>"; };
+		BB691E272103465C00F22658 /* 丹麥3.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "丹麥3.gpx"; sourceTree = "<group>"; };
+		BB691E28210DE9A700F22658 /* 丹麥5.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "丹麥5.gpx"; sourceTree = "<group>"; };
+		BB6EEA9F20DDAC590077829B /* 西本願寺.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "西本願寺.gpx"; sourceTree = "<group>"; };
+		BB8B8CBF1FC1774800E4C394 /* 家裡走到公館(走路).gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "家裡走到公館(走路).gpx"; sourceTree = "<group>"; };
+		BBC3A69621033F7600E18866 /* 丹麥2.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "丹麥2.gpx"; path = "pokemongo/丹麥2.gpx"; sourceTree = "<group>"; };
+		BBF2A5C020D5491500EAF7AE /* 美國紐約中央公園.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "美國紐約中央公園.gpx"; sourceTree = "<group>"; };
+		BBF2A5C120D5498300EAF7AE /* 美國曼哈頓.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "美國曼哈頓.gpx"; sourceTree = "<group>"; };
+		BBF2A5C220D549CE00EAF7AE /* 美國時代廣場.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "美國時代廣場.gpx"; sourceTree = "<group>"; };
+		BBF2A5C320D7D50400EAF7AE /* 巴洛克花園.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "巴洛克花園.gpx"; sourceTree = "<group>"; };
+		BBF2A5C420D8636B00EAF7AE /* 不知道道館5.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "不知道道館5.gpx"; sourceTree = "<group>"; };
+		BBFE97B120E8F2A400806D50 /* 青石巨堂.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "青石巨堂.gpx"; sourceTree = "<group>"; };
+		BBFE97B220EA51B500806D50 /* 動力咖啡.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "動力咖啡.gpx"; sourceTree = "<group>"; };
+		BBFE97B320F1E51200806D50 /* 蘭州公園.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "蘭州公園.gpx"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB2FCC7B1FBEAB8000C174B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB2FCC751FBEAB8000C174B6 = {
+			isa = PBXGroup;
+			children = (
+				BBC3A69621033F7600E18866 /* 丹麥2.gpx */,
+				BB691E272103465C00F22658 /* 丹麥3.gpx */,
+				BB691E28210DE9A700F22658 /* 丹麥5.gpx */,
+				BBFE97B320F1E51200806D50 /* 蘭州公園.gpx */,
+				BB52E50820E4FCCA0097588A /* 一壽街.gpx */,
+				BBFE97B120E8F2A400806D50 /* 青石巨堂.gpx */,
+				BBFE97B220EA51B500806D50 /* 動力咖啡.gpx */,
+				BB24500420BD9F05005D4C99 /* 不知道道館1.gpx */,
+				BB24500520BDA0E5005D4C99 /* 不知道道館2.gpx */,
+				BB24500620BDA16C005D4C99 /* 不知道道館3.gpx */,
+				BB24500720BDA1F6005D4C99 /* 不知道道館4.gpx */,
+				BBF2A5C420D8636B00EAF7AE /* 不知道道館5.gpx */,
+				BB6EEA9F20DDAC590077829B /* 西本願寺.gpx */,
+				BBF2A5C020D5491500EAF7AE /* 美國紐約中央公園.gpx */,
+				BBF2A5C120D5498300EAF7AE /* 美國曼哈頓.gpx */,
+				BBF2A5C220D549CE00EAF7AE /* 美國時代廣場.gpx */,
+				BBF2A5C320D7D50400EAF7AE /* 巴洛克花園.gpx */,
+				BB3436DA208199F1004AE53B /* 丹麥1.gpx */,
+				BB57E67420B9916400776C4B /* 貓空1.gpx */,
+				BB57E67520B992C900776C4B /* 貓空2.gpx */,
+				BB57E67620B9936700776C4B /* 貓空3.gpx */,
+				BB3436DB2082E388004AE53B /* 青蛙池.gpx */,
+				BB3436DC2082E403004AE53B /* 光輝公園.gpx */,
+				BB2CDCAC20B99593004FD0E8 /* 北投公園.gpx */,
+				BB3436DE2082E556004AE53B /* 景行公園.gpx */,
+				BB3436DF2082E596004AE53B /* 萬有公園.gpx */,
+				BB3436E02082E5DF004AE53B /* 木南公園.gpx */,
+				BB3436E12082E61C004AE53B /* 原野公園.gpx */,
+				BB2CDCAD20B99603004FD0E8 /* 五股聖母宮.gpx */,
+				BB2CDCAE20B9983F004FD0E8 /* 新莊大眾廟.gpx */,
+				BB3436DD2082E4DA004AE53B /* 秀明變電箱.gpx */,
+				BB8B8CBF1FC1774800E4C394 /* 家裡走到公館(走路).gpx */,
+				BB1F5D5A1FC7C0B6000609EC /* 大安森林公園(走路).gpx */,
+				BB3436D920819720004AE53B /* simulateLocation.gpx */,
+				BB24500820C24E67005D4C99 /* 萬有2號公園.gpx */,
+				BB2FCC801FBEAB8000C174B6 /* pokemongo */,
+				BB2FCC7F1FBEAB8000C174B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB2FCC7F1FBEAB8000C174B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB2FCC7E1FBEAB8000C174B6 /* pokemongo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB2FCC801FBEAB8000C174B6 /* pokemongo */ = {
+			isa = PBXGroup;
+			children = (
+				BB2FCC811FBEAB8000C174B6 /* AppDelegate.swift */,
+				BB2FCC831FBEAB8000C174B6 /* ViewController.swift */,
+				BB2FCC851FBEAB8000C174B6 /* Main.storyboard */,
+				BB2FCC881FBEAB8000C174B6 /* Assets.xcassets */,
+				BB2FCC8A1FBEAB8000C174B6 /* LaunchScreen.storyboard */,
+				BB2FCC8D1FBEAB8000C174B6 /* Info.plist */,
+			);
+			path = pokemongo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB2FCC7D1FBEAB8000C174B6 /* pokemongo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB2FCC901FBEAB8000C174B6 /* Build configuration list for PBXNativeTarget "pokemongo" */;
+			buildPhases = (
+				BB2FCC7A1FBEAB8000C174B6 /* Sources */,
+				BB2FCC7B1FBEAB8000C174B6 /* Frameworks */,
+				BB2FCC7C1FBEAB8000C174B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pokemongo;
+			productName = pokemongo;
+			productReference = BB2FCC7E1FBEAB8000C174B6 /* pokemongo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB2FCC761FBEAB8000C174B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Kai.Siang;
+				TargetAttributes = {
+					BB2FCC7D1FBEAB8000C174B6 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BB2FCC791FBEAB8000C174B6 /* Build configuration list for PBXProject "pokemongo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB2FCC751FBEAB8000C174B6;
+			productRefGroup = BB2FCC7F1FBEAB8000C174B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB2FCC7D1FBEAB8000C174B6 /* pokemongo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB2FCC7C1FBEAB8000C174B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB2FCC8C1FBEAB8000C174B6 /* LaunchScreen.storyboard in Resources */,
+				BB2FCC891FBEAB8000C174B6 /* Assets.xcassets in Resources */,
+				BB2FCC871FBEAB8000C174B6 /* Main.storyboard in Resources */,
+				BB1F5D5B1FC7C0B6000609EC /* 大安森林公園(走路).gpx in Resources */,
+				BB8B8CC01FC1774800E4C394 /* 家裡走到公館(走路).gpx in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB2FCC7A1FBEAB8000C174B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB2FCC841FBEAB8000C174B6 /* ViewController.swift in Sources */,
+				BB2FCC821FBEAB8000C174B6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BB2FCC851FBEAB8000C174B6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB2FCC861FBEAB8000C174B6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB2FCC8A1FBEAB8000C174B6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB2FCC8B1FBEAB8000C174B6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB2FCC8E1FBEAB8000C174B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB2FCC8F1FBEAB8000C174B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB2FCC911FBEAB8000C174B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P4X85T43YC;
+				INFOPLIST_FILE = pokemongo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kai.Siang.pokemongo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB2FCC921FBEAB8000C174B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P4X85T43YC;
+				INFOPLIST_FILE = pokemongo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kai.Siang.pokemongo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB2FCC791FBEAB8000C174B6 /* Build configuration list for PBXProject "pokemongo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB2FCC8E1FBEAB8000C174B6 /* Debug */,
+				BB2FCC8F1FBEAB8000C174B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB2FCC901FBEAB8000C174B6 /* Build configuration list for PBXNativeTarget "pokemongo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB2FCC911FBEAB8000C174B6 /* Debug */,
+				BB2FCC921FBEAB8000C174B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB2FCC761FBEAB8000C174B6 /* Project object */;
+}
